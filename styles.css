@@ -1,0 +1,157 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+
+    background-color: #8A51FC;
+
+}
+
+.main-logo{
+
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: block;
+    
+}
+
+main{
+
+    border-radius: 20px;
+    background: #F4F4F4;
+    width: 375px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label{
+
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+b{
+
+    font-weight: 700;
+}
+
+select{
+
+    background: #FFF;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    appearance: none;
+    cursor: pointer;
+
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+
+}
+
+input{
+
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    height: 48px;
+    width: 100%;
+    margin-bottom: 23px;
+    padding-left: 18px;
+
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+
+}
+
+button{
+
+    border-radius: 5px;
+    background: #772FD3;
+    height: 48px;
+    width: 100%;
+    border: none;
+    margin-bottom: 36px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.501);
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+
+}
+
+button:hover{
+
+    opacity: 0.8;
+
+}
+
+button:active{
+
+    opacity: 0.6;
+
+}
+
+section{
+
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    width: 100%;
+    padding: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow{
+
+    margin: 15px 0;
+
+}
+
+div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.currency-value-to-convert , .currency-value{
+
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+
+}
+
+p{
+
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
